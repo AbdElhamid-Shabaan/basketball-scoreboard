@@ -1,0 +1,40 @@
+
+#container {
+ margin-left: 10%;
+ background-color: #1B244A;
+ color: white;
+ width: 575px;
+ height: 385px;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+font: bold 36px Sans-serif;
+}
+
+.score-p {
+   border-radius: 10px;
+ display: table-cell;
+ vertical-align: middle;
+ color: rgb(159, 35, 35);
+ background-color: black;
+ font:bold 54px Sans-serif;
+ text-align: center;
+ margin: 10px 0;
+ max-width: 150px;
+ min-width: 150px;
+ height: 120px;
+ 
+}
+
+.score {
+   text-align:center; 
+}
+button { 
+ background-color: inherit;
+ color: white;
+ border-color: white;
+ width: 35px;
+ height: 35px;
+ border-radius: 5px;
+}
